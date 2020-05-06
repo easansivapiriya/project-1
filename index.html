@@ -26,186 +26,302 @@
     <!-- MDB core JavaScript -->
     <script type="text/javascript"
         src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.16.0/js/mdb.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
-    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
 </head>
 
 <body>
 
+
+    <div class="full-height">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-12 col-lg-6 col-md-6 col-sm-12">
+                    <div class="card m-2 text-center">
+                        <div class="view overlay">
+                            <img class="card-img-top modal-dialog-centered" src="./src/a.png" alt="Card image cap">
+                            <a href="#!">
+                                <div class="mask rgba-white-slight"></div>
+                            </a>
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title">உயிரெழுத்துக்கள் - Vowels</h4>
+                            <p class="card-text"></p>
+                            <a href="#vowels" class="btn btn-blue-grey">Go <i
+                                    class="fas fa-chevron-circle-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="col-12 col-lg-6 col-md-6 col-sm-12 ">
+                    <div class="card m-2 text-center">
+                        <div class="view overlay">
+                            <img class="card-img-top modal-dialog-centered" src="./src/ik1.png" alt="Card image cap">
+                            <a href="#!">
+                                <div class="mask rgba-white-slight"></div>
+                            </a>
+                        </div>
+                        <div class="card-body">
+                            <h4 class="card-title">மெய் எழுத்துக்கள் - Consonants</h4>
+                            <p class="card-text"></p>
+                            <a href="#" class="btn btn-blue-grey">Button <i class="fas fa-chevron-circle-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- photos -->
+
+    <div class="full-height" id="vowels">
+        <div class="container">
+            <h1 class="text-center"><strong>Vowels</strong></h1>
+            <div class="row">
+
+                <div class="zoom wow fadeInLeft col-4 col-lg-2 col-md-3 col-sm-4">
+                    <div class="card bac  m-2 text-center">
+                        <div class="dd view overlay" data-toggle="modal" data-target="#myModal1">
+                            <img class="letters wow  card-img-top" src="./src/vowel/a1.png" alt="Card image cap">
+                            <div class="mask rgba-white-slight"></div>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-rounded btn-blue-grey btn-sm">Play<i
+                                    class="fas far fa-play-circle pl-1"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="zoom wow fadeInLeft col-4 col-lg-2 col-md-3 col-sm-4">
+                    <div class="card bac  m-2 text-center">
+                        <div class="dd view overlay" data-toggle="modal" data-target="#myModal2">
+                            <img class="letters wow  card-img-top" src="./src/vowel/a2.png" alt="Card image cap">
+                            <div class="mask rgba-white-slight"></div>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-rounded btn-blue-grey btn-sm">Play<i
+                                    class="fas far fa-play-circle pl-1"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="zoom wow fadeInLeft col-4 col-lg-2 col-md-3 col-sm-4">
+                    <div class="card bac  m-2 text-center">
+                        <div class="dd view overlay" data-toggle="modal" data-target="#myModal3">
+                            <img class="letters wow  card-img-top" src="./src/vowel/a3.png" alt="Card image cap">
+                            <div class="mask rgba-white-slight"></div>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-rounded btn-blue-grey btn-sm">Play<i
+                                    class="fas far fa-play-circle pl-1"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="zoom wow fadeInLeft col-4 col-lg-2 col-md-3 col-sm-4">
+                    <div class="card bac  m-2 text-center">
+                        <div class="dd view overlay" data-toggle="modal" data-target="#myModal4">
+                            <img class="letters wow  card-img-top" src="./src/vowel/a4.png" alt="Card image cap">
+                            <div class="mask rgba-white-slight"></div>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-rounded btn-blue-grey btn-sm">Play<i
+                                    class="fas far fa-play-circle pl-1"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="zoom wow fadeInLeft col-4 col-lg-2 col-md-3 col-sm-4">
+                    <div class="card bac  m-2 text-center">
+                        <div class="dd view overlay" data-toggle="modal" data-target="#myModal5">
+                            <img class="letters wow  card-img-top" src="./src/vowel/a5.png" alt="Card image cap">
+                            <div class="mask rgba-white-slight"></div>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-rounded btn-blue-grey btn-sm">Play<i
+                                    class="fas far fa-play-circle pl-1"></i></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="zoom wow fadeInLeft col-4 col-lg-2 col-md-3 col-sm-4">
+                    <div class="card bac  m-2 text-center">
+                        <div class="dd view overlay" data-toggle="modal" data-target="#myModal6">
+                            <img class="letters wow  card-img-top" src="./src/vowel/a6.png" alt="Card image cap">
+                            <div class="mask rgba-white-slight"></div>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-rounded btn-blue-grey btn-sm">Play<i
+                                    class="fas far fa-play-circle pl-1"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- The Modal -->
+    <div class="modal" id="myModal1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="text-center">
+                    <img src="./src/animation/a.gif" alt="ana" srcset="">
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- 001 -->
+    <div class="modal" id="myModal2">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="text-center">
+                    <img src="./src/animation/a2.gif" alt="ana" srcset="">
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-light" data-dismiss="modal">Close</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- 001 -->
+    <div class="modal" id="myModal3">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="text-center">
+                    <img src="./src/animation/a3.gif" alt="ana" srcset="">
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-light" data-dismiss="modal">Close</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- 003 -->
+    <div class="modal" id="myModal4">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="text-center">
+                    <img src="./src/animation/a4.gif" alt="ana" srcset="">
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-light" data-dismiss="modal">Close</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- 004 -->
+    <div class="modal" id="myModal5">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="text-center">
+                    <img src="./src/animation/a5.gif" alt="ana" srcset="">
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-light" data-dismiss="modal">Close</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- 005-->
+    <div class="modal" id="myModal6">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+
+                <!-- Modal Header -->
+                <div class="modal-header">
+
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <!-- Modal body -->
+                <div class="text-center">
+                    <img src="./src/animation/a6.gif" class="" alt="ana" srcset="">
+                </div>
+
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-light" data-dismiss="modal">Close</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        $(document).ready(function () {
+            new WOW().init();
+        });
+    </script>
 </body>
-<div class="container">
-    <div class="mar">
-        <div class="row">
-            <div class="col-12 col-lg-6 col-md-6 col-sm-12">
-                <!-- Card -->
-                <div class="card m-2 text-center">
-
-                    <!-- Card image -->
-                    <div class="view overlay">
-                        <img class="card-img-top" src="./src/a.png" alt="Card image cap">
-                        <a href="#!">
-                            <div class="mask rgba-white-slight"></div>
-                        </a>
-                    </div>
-                    <!-- Card content -->
-                    <div class="card-body">
-
-                        <!-- Title -->
-                        <h4 class="card-title">உயிரெழுத்துக்கள் - Vowels</h4>
-
-                        <!-- Button -->
-                        <a href="#" class="btn btn-primary">Button</a>
-
-                    </div>
-
-                </div>
-                <!-- Card -->
-            </div>
-
-            <div class="col-12 col-lg-6 col-md-6 col-sm-12 ">
-                <!-- Card -->
-                <div class="card m-2 text-center">
-
-                    <!-- Card image -->
-                    <div class="view overlay">
-                        <img class="card-img-top" src="./src/ik1.png" alt="Card image cap">
-                        <a href="#!">
-                            <div class="mask rgba-white-slight"></div>
-                        </a>
-                    </div>
-
-                    <!-- Card content -->
-                    <div class="card-body">
-
-                        <!-- Title -->
-                        <h4 class="card-title">மெய் எழுத்துக்கள் - Consonants</h4>
-
-                        <!-- Button -->
-                        <a href="#" class="btn btn-primary">Button</a>
-
-                    </div>
-
-                </div>
-                <!-- Card -->
-            </div>
-        </div>
-    </div>
-
-
-    <div class="row">
-        <div class="col-2 col-md-2 mb-4">
-            <!-- Card -->
-            <div class="card">
-
-                <!--Card image-->
-                <div class="view overlay">
-                    <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/images/16.jpg"
-                        alt="Card image cap">
-                    <a href="#!">
-                        <div class="mask rgba-white-slight"></div>
-                    </a>
-                </div>
-
-                <!--Card content-->
-                <div class="card-body">
-
-                    <!--Title-->
-                    <h4 class="card-title">Card title</h4>
-
-                    <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-                    <button type="button" class="btn btn-outline-primary btn-rounded waves-effect">Primary</button>
-
-                </div>
-
-            </div>
-            <!-- Card -->
-        </div>
-        <div class="col-2 col-md-2 mb-4">
-            <!-- Card -->
-            <div class="card">
-
-                <!--Card image-->
-                <div class="view overlay">
-                    <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/images/16.jpg"
-                        alt="Card image cap">
-                    <a href="#!">
-                        <div class="mask rgba-white-slight"></div>
-                    </a>
-                </div>
-
-                <!--Card content-->
-                <div class="card-body">
-
-                    <!--Title-->
-                    <h4 class="card-title">Card title</h4>
-
-                    <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-                    <button type="button" class="btn"><i class="far fa-play-circle"></i></button>
-
-
-                </div>
-
-            </div>
-            <!-- Card -->
-        </div>
-        <div class="col-2 col-md-2 mb-4">
-            <!-- Card -->
-            <div class="card">
-
-                <!--Card image-->
-                <div class="view overlay">
-                    <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/images/16.jpg"
-                        alt="Card image cap">
-                    <a href="#!">
-                        <div class="mask rgba-white-slight"></div>
-                    </a>
-                </div>
-
-                <!--Card content-->
-                <div class="card-body">
-
-                    <!--Title-->
-                    <h4 class="card-title">Card title</h4>
-
-                    <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-                    <button type="button" class="btn btn-outline-primary btn-rounded waves-effect">Primary</button>
-
-
-                </div>
-
-            </div>
-            <!-- Card -->
-        </div>
-        <div class="col-2 col-md-2 mb-4">
-            <!-- Card -->
-            <div class="card">
-
-                <!--Card image-->
-                <div class="view overlay">
-                    <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/images/16.jpg"
-                        alt="Card image cap">
-                    <a href="#!">
-                        <div class="mask rgba-white-slight"></div>
-                    </a>
-                </div>
-
-                <!--Card content-->
-                <div class="card-body">
-
-                    <!--Title-->
-                    <h4 class="card-title">Card title</h4>
-
-                    <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-                    <button type="button" class="btn btn-outline-primary btn-rounded waves-effect">Primary</button>
-
-
-                </div>
-
-            </div>
-            <!-- Card -->
-        </div>
-    </div>
-</div>
 
 </html>

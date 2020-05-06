@@ -1,3 +1,84 @@
-.mar{
-    margin-top: 14rem;
+html, body {
+    scroll-behavior: smooth;
+    height: 100%;
+    margin: 0;
 }
+  
+.full-height {
+    height: 100%;
+}
+  .zoom {
+    transition: transform .2s;
+}
+  
+.zoom:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+}
+.dd:hover{
+cursor: pointer;
+}
+.card:hover{
+cursor: pointer;
+}
+.bac{
+    background-color: antiquewhite;
+}
+.btn{
+    border-radius: 5rem;
+}
+body{
+    background-color: #FFCDB2;
+}
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+    .letters{
+        height: 8rem;
+    }
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    .letters{
+        height: 9rem;
+    }
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    .letters{
+        height: 7rem;
+    }
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    .letters{
+        height: 6rem;
+    }
+    
+  }
