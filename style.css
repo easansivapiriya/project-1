@@ -80,5 +80,8 @@ body{
     .letters{
         height: 6rem;
     }
+    .full-height {
+        height:auto;
+    }
     
   }
