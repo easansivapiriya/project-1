@@ -7,7 +7,7 @@ html, body {
 .full-height {
     height: 100%;
 }
-  .zoom {
+.zoom {
     transition: transform .2s;
 }
   
@@ -22,14 +22,21 @@ cursor: pointer;
 .card:hover{
 cursor: pointer;
 }
-.bac{
-    background-color: antiquewhite;
-}
+
 .btn{
     border-radius: 5rem;
 }
 body{
     background-color: #FFCDB2;
+}
+.card-body{
+    background-color: #E5989B;
+font-size: xx-large;
+}
+.content-header{
+    text-align: center;
+    color: #6d6875;
+    margin: 2rem;
 }
 /* 
   ##Device = Tablets, Ipads (portrait)
