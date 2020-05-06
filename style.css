@@ -39,6 +39,10 @@ body{
     background-color: #E5989B;
     font-size: xx-large;
 }
+.card-title{
+    color: #6d6875;
+
+}
 .content-header{
     text-align: center;
     color: #6d6875;
